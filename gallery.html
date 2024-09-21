@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Photography Studio</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" style="background-image: url('https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2018/05/Tips-For-Better-Panoramas-tripod.jpg?resize=750%2C500&ssl=1'); height: 60vh; background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center; color: white; text-align: center;">
+        <div>
+            <h2>Our Gallery</h2>
+            <p>Capturing life's best moments in every frame.</p>
+        </div>
+    </section>
+    
+    <section class="gallery-section" style="padding: 50px 0; text-align: center;">
+        <h3>Explore Our Work</h3>
+        <p>Check out some of our amazing photography below:</p>
+        <div class="gallery-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; padding: 20px;">
+            <div class="gallery-item" style="position: relative;">
+                <img src="https://www.kevinlj.com/wp-content/uploads/2022/03/Hard-Light.jpg" alt="Photo 1" style="width: 100%; height: 250px; object-fit: cover;">
+                <div class="caption" style="position: absolute; bottom: 0; background-color: rgba(0,0,0,0.7); color: white; width: 100%; padding: 10px; text-align: center;">Wedding Moments</div>
+            </div>
+            <div class="gallery-item" style="position: relative;">
+                <img src="https://blog.artweb.com/wp-content/uploads/2021/08/Camera-tripod-natural-lighting-sunlight-Canva.jpg" alt="Photo 2" style="width: 100%; height: 250px; object-fit: cover;">
+                <div class="caption" style="position: absolute; bottom: 0; background-color: rgba(0,0,0,0.7); color: white; width: 100%; padding: 10px; text-align: center;">Portrait Session</div>
+            </div>
+            <div class="gallery-item" style="position: relative;">
+                <img src="https://icorridor.org/storymaps/wp-content/uploads/2016/10/moon-example-4.jpg" alt="Photo 3" style="width: 100%; height: 250px; object-fit: cover;">
+                <div class="caption" style="position: absolute; bottom: 0; background-color: rgba(0,0,0,0.7); color: white; width: 100%; padding: 10px; text-align: center;">Nature Photography</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta" style="background-color: #333; color: white; padding: 40px 0; text-align: center;">
+        <h3>Like What You See?</h3>
+        <p>Contact us today to book your photography session and create memories that last forever.</p>
+        <a href="contact.html" class="btn" style="padding: 10px 20px; background-color: #f9c22b; border: none; border-radius: 5px; color: #333; font-weight: bold; text-decoration: none;">Book Now</a>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
